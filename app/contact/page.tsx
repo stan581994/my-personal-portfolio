@@ -74,7 +74,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={handleChange}
                     className="bg-wolf-bg border-wolf-accent/30 text-wolf-text focus:border-wolf-accent"
-                    placeholder="your.email@example.com"
+                    placeholder="stan581994@gmail.com"
                   />
                 </div>
 
@@ -123,19 +123,19 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold text-wolf-text mb-2">Social Media</h3>
                   <div className="flex flex-wrap gap-2">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/stan581994" target="_blank" rel="noopener noreferrer">
                       <Badge className="bg-wolf-accent/10 text-wolf-accent border-wolf-accent/20 hover:bg-wolf-accent/20 cursor-pointer">
                         GitHub
                       </Badge>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/steven-tan-219212160/  " target="_blank" rel="noopener noreferrer">
                       <Badge className="bg-wolf-accent/10 text-wolf-accent border-wolf-accent/20 hover:bg-wolf-accent/20 cursor-pointer">
                         LinkedIn
                       </Badge>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://dev.to/lone_lykos8" target="_blank" rel="noopener noreferrer">
                       <Badge className="bg-wolf-accent/10 text-wolf-accent border-wolf-accent/20 hover:bg-wolf-accent/20 cursor-pointer">
-                        Twitter
+                        Dev Community
                       </Badge>
                     </a>
                   </div>

@@ -21,8 +21,8 @@ export default async function BlogPost({
   const { content, data } = matter(fileContent);
 
   return (
-    <div className="max-w-3xl mx-auto py-10 px-4">
-      <article className="prose prose-invert prose-headings:text-wolf-accent prose-a:text-wolf-accent hover:prose-a:text-wolf-hover prose-strong:text-wolf-text prose-code:text-wolf-accent">
+    <div className="max-w-6xl mx-auto py-10 px-8">
+      <article className="prose prose-lg prose-invert max-w-none prose-headings:text-wolf-accent prose-a:text-wolf-accent hover:prose-a:text-wolf-hover prose-strong:text-wolf-text prose-code:text-wolf-accent prose-pre:bg-wolf-card prose-pre:border prose-pre:border-wolf-accent/30">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-wolf-accent mb-2">{data.title}</h1>
           <p className="text-wolf-text/70">{data.date}</p>

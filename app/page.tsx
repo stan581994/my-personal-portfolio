@@ -8,12 +8,12 @@ import { Textarea } from "@/components/ui/textarea";
 
 const projects = [
   {
-    title: "AI Text Summarizer",
-    description: "A project built using Next.js + LLMs to automatically summarize long-form content.",
-    technologies: ["Next.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
-    status: "In Progress",
-    github: "#",
-    demo: "#",
+    title: "AI-Powered SRE Automation Platform",
+    description: "Autonomous AI application that revolutionizes Site Reliability Engineering reporting through intelligent automation. Integrates with Dynatrace, PagerDuty, and Claude AI to analyze incidents and generate comprehensive reports automatically, reducing manual effort by 85% and incident resolution time by 40%.",
+    technologies: ["Java", "Spring Boot", "Claude AI", "Dynatrace", "PagerDuty", "GKE", "Slack"],
+    status: "Completed",
+    github: "/blog/ai-sre-automation", // Link to case study blog post
+    demo: "#case-study", // Link to case study section
   },
   {
     title: "E-Commerce Platform",
@@ -50,10 +50,10 @@ export default function Home() {
           Welcome to my portfolio
         </Badge>
         <h1 className="text-6xl font-bold text-wolf-accent mb-4">
-          Lone Wolf Engineer
+          Steven Tan
         </h1>
         <p className="mt-4 text-2xl text-wolf-text max-w-2xl">
-          Java Developer ➜ Future AI Engineer
+          Java and AI/ML Engineer
         </p>
         <p className="mt-2 text-lg text-wolf-text/80 max-w-2xl">
           Building intelligent systems with modern tools and technologies.
